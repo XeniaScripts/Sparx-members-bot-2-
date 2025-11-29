@@ -1,0 +1,13 @@
+{
+  "name": "discord-oauth-firestore",
+  "version": "1.0.0",
+  "description": "Discord OAuth callback that writes to Google Firestore.",
+  "main": "api/callback.js",
+  "scripts": {
+    "start": "node api/callback.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.5.0",
+    "node-fetch": "^3.3.2" 
+  }
+}
