@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord OAuth Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f7f9fb; }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 bg-gray-50">
+    <div class="max-w-md w-full p-8 bg-white rounded-xl shadow-2xl rounded-xl text-center">
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">OAuth Service Active</h1>
+        <p class="text-gray-600 mb-6">
+            This service handles the verification link posted in Discord. It is working correctly if you see this page.
+        </p>
+        <p class="text-sm text-indigo-600 font-medium">
+            The core logic runs at: <code>/api/callback</code>
+        </p>
+        <div class="mt-6">
+            <a href="https://discord.com/" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition duration-150">
+                Go back to Discord
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
